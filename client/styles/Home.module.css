@@ -1,0 +1,99 @@
+.homepage {
+  background-image: url('/background.svg');
+  background-size: cover;
+  height:100vh;
+  font-size: 1.5em;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#232946
+}
+
+.homepage h1{
+  padding:0;
+  margin: 0;
+  font-weight: 500;
+}
+.homepage h3{
+  font-weight: 300;
+}
+
+
+.section1{
+  color:white;
+  position: absolute;
+  background-color: #086cd75b;
+  padding:10px;
+  right:2%;
+  bottom:-350px;
+}
+
+.section1 p, .section2 p{
+  color:#B8C1EC;
+  width:200px;
+  font-weight: 200;
+}
+
+.section1 h3, .section2 h3{
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.input{
+  border:none;
+  padding:20px;
+  width:50%;
+  border-radius: 5px;
+}
+
+.input:focus{
+  outline: none;
+}
+
+.section2{
+  color:white;
+  background-color: #086cd75b;
+  padding:10px;
+  position: absolute;
+  left:5%;
+  bottom:-600px;
+}
+
+.info_page {
+  background-color: #232946;
+  height:100vh;
+  background-image: url('/constellation.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+}
+
+.footer{
+  background-color: #eebbc3;
+  background-size: cover;
+  flex-direction: column;
+  height:20vh;
+  align-items: center;
+  display: flex;
+}
+
+.buttonContainer {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+ .homepage{
+    background-image: url('/bgforphone.svg');
+    background-size: cover;
+ }
+ .info_page{
+   height:100vh
+ }
+}

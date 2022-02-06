@@ -1,0 +1,24 @@
+.background{
+  background-color: #232946;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer{
+  background-color: #fffffe;
+  height:50vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.loginContainer input{
+  padding:20px;
+  width:100%;
+  border-radius: 5px;
+}
